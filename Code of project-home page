@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="icon" href="logo%20(1).ico">
+	<title>   Home Page</title>
+	<style>
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+		#li1{
+			list-style: none;
+			float: left;
+			color: white;
+			margin-left:30px; 
+		}
+		#ul1{
+			width: 100%;
+			height: 100px;
+			background: #5b85aa;
+		}
+		#li2{
+			list-style: none;
+		}
+		
+       .l3{
+       	margin-right:100px;
+       	margin-top:-40px;
+       	font-size: 20px; 
+       }
+       .textarea:hover{
+       	background-color:darkturquoise;
+       }
+       #c3{
+       	width: 800px;
+       	height: 4500px;
+       	color: black;
+       	float: left;
+       	background-color:skyblue;
+       	margin-left: 8px;
+       	margin-top: -19px;
+       }
+       .c3{
+       	background-color: lightgray;
+       	width: 90%;
+       	height: 700px;
+        margin-top:-10px;
+       }
+        #button:hover {
+    opacity: 0.8;
+}
+        
+        
+    
+	</style>
+
+    <script>
+    function abc(name)
+        {
+            var a=confirm("Are You Sure!! You want to send this message to sender")
+            if(a==true)
+                {
+                    alert(" THANK YOU FOR SUBMITTING RESPONSE .");
+                    comment(name);
+                } 
+        }
+
+function comment(name)
+        {
+            document.getElementById("comlog").value += "You commented on "+name+" post. \n";
+        }
+        
+    function ijk()
+        {
+              alert("This is only for showing notification and not for writting purpose.\n Here you can see notification that on whose post you have commented.");
+        }
+    
+    
+    </script>
+    <meta name="description" content="this is a home page">
+
+</head>
+<body bgcolor="#5b85aa">
+<header>
+	<div>
+		<ul id="ul1">
+			<li id="li1" style="margin-top:10px;"><img src="logo.jpeg" width="80px" style="border-radius:50px;box-shadow:1px,1px,1px,grey;"></li>
+            <li id="li1" style="margin-left:375px;font-size:50px;margin-top:20px;font-style: italic;"><strong>Friendzone</strong></li>
+        </ul>
+	</div>
+</header>
+    <br>
+<section>
+	<div  style="width:210px;background-color:#304ffe;box-shadow:1px,1px,1px,grey; height: 4500px;margin-top:-19px;float: left;"><br><br>
+		<ul style="margin-left: 5px">
+           <li id="li2" style="margin-top:30px;"><img src="profile.png" width="40px" style="border-radius:50px;box-shadow:1px,1px,1px,grey;"></li>
+            <li id="li2" class="l3"  style="color: black;float: right;"><p><u>Profile</u></p></li><br>
+           <li id="li2" 2style="margin-top:30px;"><img src="set.png" width="40px" style="border-radius:50px;box-shadow:1px,1px,1px,grey;"></li>
+            <li id="li2" class="l3" style="color: black;float: right;"><p><u>Setting</u>
+</p></li>
+            <li id="li2"  style="margin-top:30px;"><img src="logout.png" width="40px" style="border-radius:50px;box-shadow:1px,1px,1px,grey;"></li>
+            <li id="li2" class="l3" style="color: black;float: right;"><p><u>Logout</u></p></li>
+        </ul><br><br>
+     <form>
+        <center><br><br><textarea class="textarea" rows="16" cols="24" placeholder="Write message to the user "></textarea></center><br>
+        <input type="button" id="button" name="sent" value="Sent" style="margin-left: 20px;border-radius: 50px;padding: 3px;width: 100px">
+     </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <center>
+            <p style=" margin-right: 60px;float:right;font-size: 25px;color:#ffffff;" >Notification<br><br>
+            <center onclick="ijk()">
+                <textarea cols="24" rows="30" placeholder="Comment notification..." id="comlog"  disabled></textarea>
+                </center>
+                </p>
+        </center>
+
+	</div>
+</section>
+<div id="c3"><br>
+	<center>
+        <div align="left" style="height: 200px;
+       	width: 90%;background-color:#304ffe"><img style="margin-top: 7px; margin-left: 50px;border-radius:300px; border: 3px solid #ffffff;" src="images.jpg" height="175px" width="200px">
+            <h1 style="margin-top: 60px; margin-right: 150px;float: right;font-size: 55px;color:#ffffff;"><strong>  Aryan  </strong></h1>
+            <h6 style="margin-top: -50px; margin-right: 20px;float: right;font-size: 15px;color:brown;"><q>Never Give Up on small things that makes you happy.</q></h6>
+        </div>
+            
+            
+    </center>
+	<br><br>
+	<center><div class="c3">
+    <img src="download%20(6).jpg" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px ">
+        <p style="margin-right:480px;margin-top:-38px"><b><big>Adam</big></b></p>
+	<br>
+        <p><strong>“The Way Get Started Is To Quit Talking And Begin Doing.” -Walt Disney</strong></p>
+	<br>
+	<center><img src="img1.png" width="92%%" height="500px"></center><br>
+        <p style="margin-left: -450px;"><u>Post a comment</u></p>
+	<textarea class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+    <input style="border-color: burlywood" id="button" type="button" name="submit" value="submit" onclick="abc('Adam')">
+        </div></center><br>
+    <center><div class="c3">
+    <img src="applelogo.jpg" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px ">
+    <p style="margin-right:480px;margin-top:-40px"><b><big>Siri</big></b></p>
+	<br>
+	<p><strong>The new iphone X. Now available at the apple store.</strong></p>
+	<br>
+	<center><img src="iphone.jpg" width="78%" height="500px"></center><br>
+	<pre style="margin-left: -500px;">       <ins>Post a comment</ins></pre>
+	<textarea  class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+    <input style="border-color: burlywood" id="button" type="button" name="submit" value="submit" onclick="abc('Siri')">
+    </div></center><br>
+    <center><div class="c3">
+    <img src="pp1.png" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px ">
+    <p style="margin-right:480px;margin-top:-38px"><b><big>Mike</big></b></p>
+	<br>
+	<p><strong>Never Give Up.</strong></p>
+	<br>
+	<center><img src="never.jpg" width="78%" height="500px"></center><br>
+        <p style="margin-left: -450px;">    <ins>Post a comment</ins></p>
+	<textarea class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+    <input style="border-color: burlywood" type="button" id="button" name="submit" value="submit" onclick="abc('Mike')">
+        </div></center><br>
+    
+    <center><div class="c3">
+        <img src="images%20(6).jpg" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px ">
+    <p style="margin-right:480px;margin-top:-38px;font-size: 20px;"><b><big>Joe</big></p>
+	<br>
+        <p><strong>Just For Laugh, Gags!!</strong></p>
+	<center>
+    <video width="610" height="600" controls poster="download.jpg" style="margin-right:600px;margin-top:-100px;margin-left: 50px;">
+        <source src="vid.mp4" type="video/mp4"> </video>
+	<br>
+        <br></center>
+	<center>
+        <p style="margin-left: -450px;"><ins>Post a comment</ins></p>
+	<textarea class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+        <input style="border-color: burlywood" type="button" name="submit" id="button" value="submit" onclick="abc('Joe')"></center>
+    </div></center><br>
+    
+    <center><div class="c3">
+    <img src="jiologo.png" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px">
+        <p style="margin-right:480px;margin-top:-38px"><b><big>Aryan</big></b></p>
+	<br>
+        <p><strong>Celebrate this prosperous diwali with JIO, enjoy fast speed internet and<br> nonstop talks only in 399 + 100% cashback.Offer valid till 18 of October.<br> HURRY!!!</strong></p>
+	<br>
+	<center><img src="jio.jpg" width="88%" height="460px"></center><br>
+        <p style="margin-left: -450px;"><u>Post a comment</u></p>
+	<textarea  class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+    <input style="border-color: burlywood" type="button" name="submit" id="button" value="submit" onclick="abc('Aryan')">
+        </div></center><br>
+    
+    <center><div class="c3">
+    <img src="pp2.jpg" width="50px" style="border-radius:50px;margin-right:600px;margin-top:8px ">
+    <p style="margin-right:480px;margin-top:-38px"><b><big>Mary</big></b></p>
+	<br>
+	<p><strong>Can't wait to see some actions</strong></p>
+	<br>
+	<center><img src="aiw.jpg" width="88%" height="495px"></center><br>
+        <p style="margin-left: -450px;"><ins>Post a comment</ins></p>
+	<textarea class="textarea" style="border-radius: 20px;width: 88%" rows="2" cols="5"></textarea><br>
+    <input style="border-color: burlywood" type="button" name="submit" id="button" value="submit" onclick="abc('Mary')">
+    </div></center>
+   
+</div>
+
+<div style="width:320px;background-color:chartreuse;box-shadow:1px,1px,1px,grey; height: 4500px;margin-top:-19px;float:none;margin-left: 1028px">
+		 <br><br> 
+    <pre style="font-size: 27px; margin-top: 5px;">        <strong><u>CHATS</u></strong></pre>
+    <iframe style="margin-left: 5px;margin-right: 5px;margin-top: 50px;"height="1000px" width="95%" src="NEW.html" name="iframe_1"></iframe>
+    <p style="margin-left: 5px;color:red"><br>
+    Click <a href="Untitled-2.html" target="iframe_1">here</a> to see your chats......</p>
+
+         <br><br>
+    </div>    
+    <footer>
+	<div>
+        <ul style="width: 100%;height: 80px;">
+			<li id="li1" style="margin-top:20px;"><img src="friendzone_black.png"  alt="freindzone official image" width="150px" style="box-shadow:1px,1px,1px,grey; "></li>
+            <li id="li1" style="margin-left:175px; font-size:15px;margin-top:30px;"><strong>&#169; 2018 FRIENDZONE - Privacy - Terms & Conditions - <u>NICK</u> Ltd.</strong></li>
+            <li id="li1" class="textarea" style="margin-left:300px; font-size:12px;margin-top:30px;"><strong>T & C <sup>*</sup> apply</strong></li>
+        </ul>
+	</div>
+</footer>
+</body>
+</html>
