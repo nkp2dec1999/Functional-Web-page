@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+Wanna chat with online friends
+</head>
+<body>
+       <table>
+                    <tr><th>Friends</th></tr>
+                    <tr><td><img class="friend-dp" src="./img/f1_img.jpg"><p>Abhishek</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f2_img.jpg"><p>Akshay</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f3_img.jpg"><p>Amy</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f4_img.jpg"><p>Devesh</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f5_img.jpg"><p>Max</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f6_img.jpg"><p>Nikhil</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f7_img.jpg"><p>Sam</p></td></tr>
+                    <tr><td><img class="friend-dp" src="./img/f8_img.jpg"><p>See all friend...</p></td></tr>
+                </table>
+            </div>
+</body>
+</html
